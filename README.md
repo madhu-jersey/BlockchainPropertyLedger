@@ -1,55 +1,73 @@
-# Blockchain-based-resilient-storage
+BlockchainPropertyLedger
 
-## Problem Statement:
+Problem Statement
 
-This project aims towards security and prevention of any undesired manipulation of sensitive public data(such as real estate property or shareholders of a company). This is being achieved by putting such data on Blockchain to stop its manipulation, because it is almost impossible to change the blockchain.
+This project focuses on security and preventing unauthorized manipulation of sensitive public data, such as real estate property records or company shareholder information. By storing this data on a blockchain, it becomes almost impossible to alter, ensuring integrity and trust.
 
-1. Establishing a proof of concept for a distributed ledger system.
-2. Developed a Blockchain based application with ‘Records of Property’ as a use-case similar as Bitcoins.
+Establish a proof-of-concept for a distributed ledger system.
 
-## About Blockchain:
+Develop a blockchain-based application using ‘Records of Property’ as a use-case, similar to cryptocurrencies like Bitcoin.
 
-Blockchain is the application of a technology in which a list of records, or blocks, are cryptographically linked to one another via timestamps and other attributes. 
+About Blockchain
 
-We have created a Proof-of-Concept for a fully distributed and decentralized application. It is a transaction based system where there is no central authority and the transaction is accepted through a consensus algorithm on a peer to peer network. Each node on the p2p has a copy of the ledger and each transaction is added onto the ledger if majority of the p2p network accepts the transaction through the consensus algorithm. For our application, we have targeted the fraudulent activities in the real-estate market. Through our PoC, the users can easily buy and sell their property without worrying about fraud and about paying the middlemen for a transaction that should not include anyone other than the sellers and the  buyers.
+Blockchain is a technology where a list of records (blocks) is cryptographically linked with timestamps and other attributes.
 
-## Goals:
+This project implements a fully distributed and decentralized application:
 
-1. House data be stored on ethereum block chain.
-2. New houses can added.
-3. House data can be updated.
-4. Adding buying functionality for the houses if the buyer has sufficient amounts of money.
-  
-## Link to view the video for the project : 
-https://youtu.be/EwQxYSbje04
- 
-## Steps to run the project:
+There is no central authority.
 
-Step1:
-Download MetaMasl from your web browser. (Example : chrome webstore).
+Transactions are accepted only if the majority of the peer-to-peer (P2P) network agrees via a consensus algorithm.
 
-Steps 2:
-Make 2 accounts and mine 4 Ethers in each account.
+Every node in the P2P network holds a copy of the ledger.
 
-Step 3:
-Download/ Clone the git repository.
+For this application, the focus is on preventing fraud in the real estate market. Users can buy and sell property directly, without worrying about middlemen or manipulation.
 
-Step 4:
-Download Node JS. If it is already present, you may check it by command node -v.
+Goals
 
-Step 5:
-Run the following commands on the root directory of the project. 
+Store house/property data on the Ethereum blockchain.
 
-Npm install -g gulp
+Allow adding new houses.
 
-Bower install.
+Enable updating house data.
 
-Bower install web3.
+Implement buying functionality, allowing purchases only if the buyer has sufficient funds.
 
-Gulp serve.
+Steps to Run the Project
+Step 1: Install MetaMask
 
-Step 6:
-Open your browser and type “localhost:9000” in the url bar. You will be able to see the application.
+Download MetaMask from your browser’s extension store (e.g., Chrome Web Store).
 
-Step 7:
-Play with the functionality. (You may buy a new house or sell a house.)
+Step 2: Create Accounts & Get Test Ether
+
+Create 2 accounts in MetaMask.
+
+Mine or get 4 Ether for each account on the test network.
+
+Step 3: Clone the Repository
+git clone <your-repo-link>
+cd <project-folder>
+
+Step 4: Install Node.js
+
+Check installation: node -v
+
+If not installed, download from Node.js
+.
+
+Step 5: Install Dependencies
+npm install -g gulp
+bower install
+bower install web3
+gulp serve
+
+Step 6: Launch the Application
+
+Open your browser and go to:
+
+http://localhost:9000
+
+Step 7: Explore the Application
+
+Add new houses, update property details, or buy/sell properties using the platform.
+
+All transactions are securely stored on the Ethereum blockchain.
